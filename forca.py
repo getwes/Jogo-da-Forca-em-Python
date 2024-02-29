@@ -1,18 +1,22 @@
 palavra = "python"
-letras_usuarios = ["t"]
+letras_usuarios = [""]
 chances = 7
 ganhou = False
 
 while True:
     # criando a logica
     for letra in palavra:
-        if letra in letras_usuarios:
+        if letra.lower() in letras_usuarios:
             print(letra, end="")
         else:
             print("_", end="")
     print("")
     tentativa = input("Escolha uma letra para adivinhar: ")
-    break        
+    letras_usuarios.append(tentativa.lower())
+    break 
+
+
+
 if ganhou:
     print(f"parabens, voce ganhou. A palavra era: {palavra}")
 
