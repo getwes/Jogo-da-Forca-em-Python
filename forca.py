@@ -10,7 +10,8 @@ while True:
             print(letra, end="")
         else:
             print("_", end="")
-
+    print("")
+    tentativa = input("Escolha uma letra para adivinhar: ")
     break        
 if ganhou:
     print(f"parabens, voce ganhou. A palavra era: {palavra}")
