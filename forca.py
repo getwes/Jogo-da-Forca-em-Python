@@ -1,6 +1,6 @@
 palavra = "python"
 letras_usuarios = [""]
-chances = 7
+chances = 4
 ganhou = False
 
 while True:
@@ -10,7 +10,7 @@ while True:
             print(letra, end="")
         else:
             print("_", end="")
-    print("")
+    print(f"voce tem {chances} chances")
     tentativa = input("Escolha uma letra para adivinhar: ")
     letras_usuarios.append(tentativa.lower())
     if tentativa.lower() not in palavra.lower():
@@ -25,7 +25,8 @@ while True:
 
 
     if chances == 0 or ganhou:
-    break 
+    
+     break 
 
 
 
