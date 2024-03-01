@@ -15,6 +15,16 @@ while True:
     letras_usuarios.append(tentativa.lower())
     if tentativa.lower() not in palavra.lower():
         chances -= 1
+
+
+    ganhou = True
+    for letra in palavra:
+        if letra.lower() not in letras_usuarios:
+            ganhou = False
+
+
+
+    if chances == 0 or ganhou:
     break 
 
 
