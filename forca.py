@@ -13,6 +13,8 @@ while True:
     print("")
     tentativa = input("Escolha uma letra para adivinhar: ")
     letras_usuarios.append(tentativa.lower())
+    if tentativa.lower() not in palavra.lower():
+        chances -= 1
     break 
 
 
