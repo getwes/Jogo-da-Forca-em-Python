@@ -1,4 +1,6 @@
-palavra = "python"
+
+from palavraforca import palavra
+#palavra = "python"
 letras_usuarios = [""]
 chances = 4
 ganhou = False
