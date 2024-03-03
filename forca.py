@@ -8,6 +8,7 @@ ganhou = False
 while True:
     # criando a logica
     for letra in palavra:
+        #.lowe() faz com que toda string digitada pelo usuario se torne minuscula.
         if letra.lower() in letras_usuarios:
             print(letra, end="")
         else:
