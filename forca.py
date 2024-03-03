@@ -1,4 +1,4 @@
-
+##importando palavra de um outro aquivo palavraforca.py
 from palavraforca import palavra
 #palavra = "python"
 letras_usuarios = [""]
@@ -31,7 +31,7 @@ while True:
      break 
 
 
-#
+
 if ganhou:
     print(f"parabens, voce ganhou. A palavra era: {palavra}")
 
