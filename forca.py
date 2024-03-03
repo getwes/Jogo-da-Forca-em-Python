@@ -31,7 +31,7 @@ while True:
      break 
 
 
-
+#
 if ganhou:
     print(f"parabens, voce ganhou. A palavra era: {palavra}")
 
